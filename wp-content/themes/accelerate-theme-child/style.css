@@ -30,22 +30,23 @@ Text Domain:  accelerate-theme-child
 
 ul {
   width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 li { 
- display: flex;
- justify-content: space-around;
- align-items: center;
- flex-flow: row wrap;
  margin: 0;
  padding: 0;
 }
 
 li h3 {
- font-weight: normal;
+ font-weight: 500;
  font-size: 1em;
  padding-top: 10px;
  margin-top: 0;
+ text-align: center;
 }
 
 .home_featured_work {
@@ -77,6 +78,13 @@ li h3 {
 	font-weight: 700;
 	color: #45ac9d;
 	text-transform: uppercase;
+}
+
+/* Archive Case Studies */
+
+div.case-study-images img {
+	width: 100%;
+	height: auto;
 }
 
 /* Case Studies */
@@ -112,3 +120,4 @@ div.case-study-images img {
   width: 100%;
   padding-bottom: 55px;
 }
+
